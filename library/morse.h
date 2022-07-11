@@ -8,7 +8,7 @@ class Morse{
         Morse(uint8_t buzzerPin);
         void buzzer(char alphabet);
 
-	private:
+   private:
         uint8_t buzzer_pin;
         void s();
         void l();
